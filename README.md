@@ -14,7 +14,10 @@ This project solves the following problems:
 5. To get the html file, run jupyter nbconvert --to html --no-input news_history.ipynb
 
 ## Possible extensions
-Any twitter username is fair game. It just needs to be added to the users.csv file. 
+Any twitter username is fair game. It just needs to be added to the users.csv file. Use cases include:
+- scientific literature
+- news, both mainstream media and independent journalists
+- specific people, like Elon Musk
 
 ## Acknowledgements
 The [snscrape project](https://github.com/JustAnotherArchivist/snscrape), for their amazing work that makes this type of data curation possible. If anything, I hope this project brigs awareness to their work. I also hope that my project contibutes to theirs by providing an example of how to use their python package, which has not been documented yet as their command line interface has. 
