@@ -1,17 +1,17 @@
 
 ## Introduction
-This project scrapes twitter to create a searchable and sortable table of news-related tweets from various users. 
+This project scrapes twitter to create a searchable and sortable table of tweets from various users. It is a generalized version my [preprint_history](https://github.com/tjburns08/preprint_history) project.  
 
 This project solves the following problems:
-1. How to stay ahead of the news without endless scrolling. 
-2. How to determine what news articles are receiving more attention. 
-3. How to understand today's news in the context of news from the past, all the way back to the mid 2000s. 
+1. How to stay ahead of twitter users and content without endless scrolling.  
+2. How to see tweets in the context of the relatively distant past. 
 
 ## How to use
-1. Go to src/
-2. Run scrape_tweets.py. Note that the file users.csv contains the twitter users you want to scrape. In this case, it's biorxiv and medrxiv. This will produce output as csv files that sit in data/.
-3. Run news_history.ipynb to get the updated table. 
-4. To get the html file, run jupyter nbconvert --to html --no-input news_history.ipynb
+1. Clone the repo.
+2. Run `pip install -r requirements.txt`
+3. Run scrape_tweets.py. Note that the file users.csv contains the twitter users you want to scrape. You can see examples already in the file. This will produce output as csv files that sit in data/.
+4. Run tweet_history.ipynb to get the updated table. 
+5. To get the html file, run jupyter nbconvert --to html --no-input news_history.ipynb
 
 ## Possible extensions
 Any twitter username is fair game. It just needs to be added to the users.csv file. 
